@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feedbacktypelist">
+
+        <item>@string/engleza</item>
+        <item>@string/germana</item>
+
+    </string-array>
+</resources>

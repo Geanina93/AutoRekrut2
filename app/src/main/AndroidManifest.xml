@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.autorekrut">
+
+    <uses-feature
+        android:name="android.hardware.type.watch"
+        android:required="false"
+        tools:ignore="InvalidWearFeatureAttribute" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="AutoRekrut"
+        android:theme="@style/AppTheme">
+
+
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="false" /> <!-- Set to true if your app is Standalone, that is, it does not require the handheldapp to run. -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:resource="@drawable/ic_launcher_background"
+            android:value="true" />
+
+        <activity
+            android:name=".Controler.MainActivity"
+            android:label="Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autorekrut.Controler.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Controler.About"
+            android:label="Despre Noi"
+            android:parentActivityName=".Controler.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autorekrut.Controler.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Controler.FormularAplicareActivity"
+            android:label="Formular De Inscriere"
+            android:parentActivityName=".Controler.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autorekrut.Controler.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Controler.FormularAplicareActivityDe"
+            android:label="Formular De InscriereDe"
+            android:parentActivityName=".Controler.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autorekrut.Controler.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Controler.Contact"
+            android:label="Contact"
+            android:parentActivityName=".Controler.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.autorekrut.Controler.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Controler.PDFGenerator"
+            android:label="PDF Generator"
+            android:parentActivityName=".Controler.MainActivity">
+        </activity>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.autorekrut.Controler.MainActivity" />
+        <activity
+            android:name=".Controler.PDFErzeugen"
+            android:label="PDF Erzeugen"
+            android:parentActivityName=".Controler.MainActivity">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.autorekrut.Controler.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

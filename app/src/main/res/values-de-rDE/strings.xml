@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_main">Home</string>
+    <string name="about">Über uns</string>
+    <string name="applyDe">Anmeldeformular</string>
+    <string name="contact">Kontakt</string>
+    <string name="pdfDe">" PDFErzeugen"</string>
+    <string name="app_name">AutoRekrut</string>
+    <string name="textHome1">Die richtige Wahl für eine erfolgreiche berufliche Zukunft</string>
+    <string name="textHome2">Was empfiehlt uns ?</string>
+    <string name="textHome3">Professionalität</string>
+    <string name="textHome4">   Wir sind ein Team von Fachleuten mit Erfahrung in der Rekrutierung von Humankapital bundesweit und international, mit dem Ziel, exzellente Bewerber mit erfolgreichen Unternehmen zu verbinden..</string>
+    <string name="textHome5">Zuverlässigkeit</string>
+    <string name="textHome6">   Wir bieten personalisierte Dienstleistungen mit höchster Qualität in Leistung und Effizienz. Wir haben spezializirte Mitarbeiter, in die Rekrutierung von Transportkandidaten, insbesondere von LKW Fahrer.</string>
+    <string name="textHome7">Sicherheit</string>
+    <string name="textHome8">   Wir sind immer dabei und unterstützen Sie während Ihrer gesamten Zusammenarbeit, von Ihrem ersten Kontakt an, während Ihres gesamten Aufenthalts bei uns.</string>
+    <string name="textHome9">Transparenz</string>
+    <string name="textHome10">  Wir begrüßen uns die Transparenz im Unternehmen, um uns selbst zu verbessern, Vertrauen und Loyalität aufzubauen und ein erfolgreiches Geschäftsmodell zu schaffen. Um Kandidaten oder Unternehmen gehen, wir wollen die Erwartungen konkret und ehrlich erfüllen.</string>
+    <string name="textAbout1">Über uns</string>
+    <string name="textAbout2">  Wir sind ein Personalagentur aus Rumänien für den deutschen Arbeitsmarkt im Transportbereich.</string>
+    <string name="textAbout3">  AWir haben aus diese Sache eine Leidenschaft gemacht und wir konzentrieren uns 100% ernste Jobs für LKW Fahrer zu finden. Wir glauben an das Potenzial des jedes Kandidat, wir lassen uns davon inspirieren und wir versuchen, jede Person mit der richtige Firma zu verbinden.</string>
+    <string name="textAbout4">  Wir arbeiten gerne für heute, im Moment. Wir identifizieren die Talente in der Transportbranche, wir kontaktieren Unternehmen und finden Arbeitsplätze, bevor sie benötigt warden. Wir sind flexibel für die sofortige Auswahl, für Interviews bei Telefon oder um Nachrichten jederzeit zu beantworten.</string>
+    <string name="textAbout5">  Wir arbeiten mit Respekt für unsere Kunden und für Interessenten an freien Positionen. Wir verlassen uns auf die neuesten Transportmethoden und wir verbinden sie mit Marketingpraktiken. Das Ergebnis: Eine Methode, die funktioniert.</string>
+    <string name="textContact1">Kontakt</string>
+    <string name="textContact2">Um uns zu kontaktieren, füllen Sie das folgende Formular aus.</string>
+    <string name="textContact3">Wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen.</string>
+    <string name="textContact5">Nachricht senden</string>
+    <string name="textContact4">Kontakt</string>
+    <string name="textApply2">Bitte füllen Sie das Formular aus, um so schnell wie möglich auf Ihre Anfragen antworten zu können</string>
+    <string name="textApply4">Name</string>
+    <string name="textApply5">Vorname</string>
+    <string name="textApply6">Firmenname</string>
+    <string name="textApply7">Anschrift</string>
+    <string name="textApply1">Anmeldeformular</string>
+    <string name="textApply8">Telefon</string>
+    <string name="textApply9">Email</string>
+    <string name="textApply10">Anzahl der gewünschte Mitarbeiter</string>
+    <string name="textApply11">Forderungen</string>
+    <string name="textApply12">Vorteile</string>
+    <string name="textApply13">Andere Details</string>
+    <string name="textApply14">Senden</string>
+    <string name="textApply15">Aben Sie Fragen? Kontaktieren Sie uns per Telefon+40 785 282 855</string>
+
+
+</resources>
