@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/activity_main"
+        android:icon="@drawable/menu"
+        android:title="@string/activity_main" />
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/menu"
+        android:title="@string/about" />
+    <item
+        android:id="@+id/apply"
+        android:icon="@drawable/menu"
+        android:title="@string/apply" />
+    <item
+        android:id="@+id/applyDe"
+        android:icon="@drawable/menu"
+        android:title="@string/applyDe"/>
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/menu"
+        android:title="@string/contact" />
+    <item
+        android:id="@+id/genereazaPdf"
+        android:icon="@drawable/menu"
+        android:title="@string/pdf" />
+    <item
+        android:id="@+id/erzeugenPdf"
+        android:icon="@drawable/menu"
+        android:title="@string/pdfDe" />
+    <item
+        android:id="@+id/chooseDe"
+        android:orderInCategory="2"
+        android:title="Delete"
+        android:icon="@drawable/de_flag"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item android:id="@+id/chooseRo"
+        android:title="Note"
+        android:orderInCategory="3"
+        android:icon="@drawable/ro_flag"
+        app:showAsAction="ifRoom|collapseActionView"/>
+
+
+
+</menu>

@@ -1,0 +1,644 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@android:style/Widget.DeviceDefault.Light.ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:background="@drawable/sidebar_backgroud"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Formular de inscriere"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Completati formularul pentru a aplica la locul de munca dorit."
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Informatii Personale"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nume"
+            android:textSize="10dp" />
+
+        <EditText
+            android:id="@+id/firstNumeEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorEditText"
+            android:hint="@string/firstNameEditText"
+            android:inputType="textPersonName"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prenume"
+            android:textSize="10dp" />
+
+        <EditText
+            android:id="@+id/secondNameEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorEditText"
+            android:hint="@string/secondNameEditText"
+            android:inputType="textPersonName"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tara"
+            android:textSize="10dp" />
+
+        <EditText
+            android:id="@+id/contryEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorEditText"
+            android:hint="Tara"
+            android:inputType="text"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judet"
+            android:textSize="10dp" />
+
+        <EditText
+            android:id="@+id/regionEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorEditText"
+            android:hint="@string/regionEditText"
+            android:inputType="text"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Localitate"
+            android:textSize="10dp" />
+
+        <EditText
+            android:id="@+id/placeEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorEditText"
+            android:hint="@string/placeEditText"
+            android:inputType="textEmailAddress"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cod postal"
+            android:textSize="10dp" />
+
+        <EditText
+            android:id="@+id/zipCodeEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorEditText"
+            android:hint="@string/zipCodeEditText"
+            android:inputType="number"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefon"
+            android:textSize="10dp" />
+
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorEditText"
+            android:hint="@string/phoneEditText"
+            android:inputType="number|phone"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="10dp" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorEditText"
+            android:hint="@string/emailEditText"
+            android:inputType="textEmailAddress"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/experientaProfesionala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/experientaProfesionala"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:id="@+id/layoutExperientaProfesionala"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/addExperience"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Adauga experienta" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/EducatieSiFormare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/educatie"
+                android:textSize="16dp" />
+
+            <CheckBox
+                android:id="@+id/areStudiuFacultateCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/areStudiuFacultateCb"
+                android:textSize="10dp" />
+
+            <CheckBox
+                android:id="@+id/areStudiuLiceuCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/areStudiuLiceuCb"
+                android:textSize="10dp" />
+
+            <CheckBox
+                android:id="@+id/areStudiuScoalaProfesionalaCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/areStudiuScoalaProfesionalaCb"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/limbiStraine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/limbiStraine"
+                android:textSize="16dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/limbaMaternaTextBox"
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/limbaMaternaTextBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorEditText"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/germana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/germana"
+                android:textSize="10dp"></TextView>
+
+            <Spinner
+                android:id="@+id/level_limba_germana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/level_entries"
+                android:prompt="@string/level_prompt"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/engleza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/engleza"
+                android:textSize="10dp"></TextView>
+
+            <Spinner
+                android:id="@+id/level_limba_engleza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/level_entries"
+                android:prompt="@string/level_prompt"
+                android:textSize="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/permisDeConducere"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Permis de conducere"
+                android:textSize="16dp"></TextView>
+
+            <TextView
+                android:id="@+id/categoriePermis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/categoriePermis"
+                android:textSize="10dp"></TextView>
+
+            <CheckBox
+                android:id="@+id/categoriaBCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/categoriaBCb"
+                android:textSize="8dp" />
+
+            <CheckBox
+                android:id="@+id/categoriaC1Cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/categoriaC1Cb"
+                android:textSize="8dp" />
+
+            <CheckBox
+                android:id="@+id/categoriaC1ECb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/categoriaC1ECb"
+                android:textSize="8dp" />
+
+            <CheckBox
+                android:id="@+id/categoriaCCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/categoriaCCb"
+                android:textSize="8dp" />
+
+            <CheckBox
+                android:id="@+id/categoriaCECb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/categoriaCECb"
+                android:textSize="8dp" />
+
+            <CheckBox
+                android:id="@+id/categoriaDCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/categoriaDCb"
+                android:textSize="8dp" />
+
+            <CheckBox
+                android:id="@+id/categoriaDECb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/categoriaDECb"
+                android:textSize="8dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/expirarePermis"
+            android:textSize="10dp"
+            android:typeface="normal"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/datePickerExpirarePermis"
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorButton"
+                android:drawableBottom="@drawable/pick_date"
+                android:onClick="setDate" />
+
+            <TextView
+                android:id="@+id/dataExpirarePermis"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@color/colorEditText"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/expirareCartelaTahograf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/dataExpirareCartelaTahograf"
+            android:textSize="10dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/datePickerExpirareCartelaTahograf"
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorButton"
+                android:drawableBottom="@drawable/pick_date"
+                android:onClick="datePicker" />
+
+            <TextView
+                android:id="@+id/dataExpirareCartelaTahograf"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@color/colorEditText"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/expirareAtestatMarfa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/dataExpirareAtestatMarfa"
+            android:textSize="10dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/datePickerExpirareAtestatMarfa"
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorButton"
+                android:drawableBottom="@drawable/pick_date"
+                android:onClick="datePicker" />
+
+            <TextView
+                android:id="@+id/dataExpirareAtestatMarfa"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@color/colorEditText"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/atestatAdr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/atestatAdr"
+                android:textSize="10dp"></TextView>
+
+            <CheckBox
+                android:id="@+id/atestatColeteCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/atestatColeteCb"
+                android:textSize="8dp" />
+
+            <CheckBox
+                android:id="@+id/atestatCisterneCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/atestatCisterneCb"
+                android:textSize="8dp" />
+
+            <CheckBox
+                android:id="@+id/faraAtestatCb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/faraAtestatCb"
+                android:textSize="8dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Incarca documente"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Buletin"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/incarcaBuletin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorButtonIncarca"
+                android:hint="Alege fisierul" />
+
+            <TextView
+                android:id="@+id/pickFileForBuletin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Nu ai ales nici un fisier"
+                android:textSize="10dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Permis de conducere"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/incarcaPermisDeConducere"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorButtonIncarca"
+                android:hint="Alege fisierul" />
+
+            <TextView
+                android:id="@+id/pickFileForPermisDeConducere"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Nu ai ales nici un fisier"
+                android:textSize="10dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Cartela Tahograf"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/incarcaCartelaTahograf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorButtonIncarca"
+                android:hint="Alege fisierul" />
+
+            <TextView
+                android:id="@+id/pickFileCartelaTahograf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Nu ai ales nici un fisier"
+                android:textSize="10dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Atestat"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/incarcaAtestat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorButtonIncarca"
+                android:hint="Alege fisierul" />
+
+            <TextView
+                android:id="@+id/pickFileForAtestat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Nu ai ales nici un fisier"
+                android:textSize="10dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Altele"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/incarcaAlteDocumente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorButtonIncarca"
+                android:hint="Alege fisierul" />
+
+            <TextView
+                android:id="@+id/pickFileForAlteDocumente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Nu ai ales nici un fisier"
+                android:textSize="10dp"></TextView>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/trimitereFormularButon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorButton"
+            android:text="Trimite" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Aveti intrebari? Contactati-ne la numarul de telefon +23 120 230 340"
+            android:textAlignment="center"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+</ScrollView>

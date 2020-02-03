@@ -1,0 +1,107 @@
+<resources>
+
+    <string name="app_name"></string>
+    <string name="feedbacktitle" translatable="false">Informatii Personale</string>
+    <string name="firstNameEditText" translatable="false">Nume </string>
+    <string name="secondNameEditText" translatable="false">Prenume  </string>
+    <string name="contryEditText" translatable="false">Tara  </string>
+    <string name="regionEditText" translatable="false">Judet  </string>
+    <string name="placeEditText" translatable="false">Localitate  </string>
+    <string name="zipCodeEditText" translatable="false">Cod Postal  </string>
+    <string name="phoneEditText" translatable="false">Telefon</string>
+    <string name="emailEditText" translatable="false">Email  </string>
+    <string name="experientaProfesionala" translatable="false">Experienta Profesionala  </string>
+    <string name="dataIncepereExperientaProfesionala" translatable="false">Din Data</string>
+    <string name="dataIncheiereExperientaProfesionala" translatable="false">Pana In Data</string>
+    <string name="tipAnsambluEditText" translatable="false">Tip Ansamblu  </string>
+    <string name="numeAngajatorEditText" translatable="false">Nume Angajator </string>
+    <string name="taraExperientaProfesionalaEditText" translatable="false">Tara  </string>
+    <string name="orasExperientaProfesionalaEditText" translatable="false">Oras  </string>
+    <string name="educatie" translatable="false">Educatie si formare  </string>
+    <string name="areStudiuLiceuCb" translatable="false">Liceu </string>
+    <string name="areStudiuFacultateCb" translatable="false">Facultate  </string>
+    <string name="areStudiuScoalaProfesionalaCb" translatable="false">Scoala Profesionala </string>
+    <string name="limbiStraine" translatable="false">Limbi Straine </string>
+    <string name="limbaMaternaTextBox" translatable="false">Limbi Materna </string>
+    <string name="engleza" translatable="false">Engleza </string>
+    <string name="germana" translatable="false">Germana</string>
+    <string name="level_prompt" translatable="false">alege_nivelul</string>
+    <string-array name="level_entries">
+        <item>Incepator</item>
+        <item>Incepator Mediu</item>
+        <item>Mediu</item>
+        <item>Avansat</item>
+    </string-array>
+    <string name="categoriePermis" translatable="false">Categorie  </string>
+    <string name="categoriaBCb" translatable="false">B  </string>
+    <string name="categoriaC1Cb" translatable="false">C1  </string>
+    <string name="categoriaC1ECb" translatable="false">C1E  </string>
+    <string name="categoriaCCb" translatable="false">C </string>
+    <string name="categoriaCECb" translatable="false">CE</string>
+    <string name="categoriaDCb" translatable="false">D  </string>
+    <string name="categoriaDECb" translatable="false">DE</string>
+    <string name="expirarePermis" translatable="false">Data expirare Permis</string>
+    <string name="atestatAdr" translatable="false">Atestat ADR</string>
+    <string name="atestatColeteCb" translatable="false">Colete</string>
+    <string name="atestatCisterneCb" translatable="false">Cisterne</string>
+    <string name="faraAtestatCb" translatable="false">Fara</string>
+    <string name="dataExpirareAtestatMarfa" translatable="false">Data expirare atestat Marfa</string>
+    <string name="dataExpirareCartelaTahograf" translatable="false">Data expirare cartela Tahograf</string>
+    <string name="feedbacktype2" translatable="false">Gripe</string>
+    <string name="feedbacktype3" translatable="false">Suggestion</string>
+    <string name="feedbacktype4" translatable="false">Bug</string>
+    <string name="feedbacktype" translatable="false">SpinnerFeedbackType</string>
+    <string name="feedbackresponse" translatable="false">CheckBoxResponse</string>
+    <string name="feedbackbody" translatable="false">EditTextFeedbackBody</string>
+    <string name="feedbackbutton" translatable="false">ButtonSendFeedback</string>
+    <string name="contactLinkSite" translatable="false"><a href="http://www.autorekrut.com/">http://www.autorekrut.com</a></string>
+
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="activity_main">Home</string>
+    <string name="about">Despre noi</string>
+    <string name="apply" translatable="false">Formular De Inscriere</string>
+    <string name="applyDe">Formular De Inscriere</string>
+    <string name="contact">Contact</string>
+    <string name="pdf" translatable="false">PDF Generator</string>
+    <string name="pdfDe">PDF Erzeugen</string>
+    <string name="textHome1">Alegerea potrivita pentru un viitor profesional de succes</string>
+    <string name="textHome2">Ce ne recomanda ?</string>
+    <string name="textHome3">Profesionalismul</string>
+    <string name="textHome4">  Suntem o echipa de oameni profesionisti, cu experienta in domeniul recrutarilor de resurse umane la nivel national si international, cu scopul final de a conecta candidati excelenti cu locuri de munca in companii de succes.</string>
+    <string name="textHome5">Increderea</string>
+    <string name="textHome6">  Oferim servicii personalizate, cu cea mai înalta calitate de performan?a ?i eficien?a. Avem colaboratori specializa?i în serviciul de recrutare a candida?ilor pentru domeniul transporturilor, indeosebi a soferilor de TIR si camioane.</string>
+    <string name="textHome7">Siguranta</string>
+    <string name="textHome8">  Suntem alaturi de dumneavostra in permanenta, oferindu-va asistenta pe toata perioada colaborarii, de la primul contact, pe intreg parcursul sederii dumneavoastra la locul de munca gasit prin intermediul nostru.</string>
+    <string name="textHome9">Transparenta</string>
+    <string name="textHome10">  Imbratisam ideea de transparenta in companie, pentru a ne putea imbunatati, pentru a construi incredere si loialitate si pentru a crea un model de business de succes. Fie ca este vorba de candidati sau companii, dorim sa raspundem asteptarilor intr-un mod real si cinstit.</string>
+    <string name="textAbout1">Despre noi</string>
+    <string name="textAbout2">  Suntem o companie de recrutare forta de munca din Romania pentru piata muncii germane in domeniul transporturilor.</string>
+    <string name="textAbout3">  Am facut din acest lucru o pasiune si ne concentram 100% in a gasi locuri de munca serioase soferilor de TIR si camioane in domeniul transporturilor.Credem in potentialul fiecaruia si ne inspiram din acest lucru.</string>
+    <string name="textAbout4">  Fiecare om are cunostinte diferite si abilitati diverse, iar scopul nostru este sa descoperim aceste calitati la fiecare persoana cu care intram in contact, gasindu-i locul de munca ideal in compania potrivita. Dorim sa fim mai mult decat o companie de intermediere forta de munca si sa oferim asistenta profesionala si consiliere pentru candidati, pentru a satisface nevoile fiecaruia.</string>
+    <string name="textAbout5">  Lucram cu respect fata de clientii nostri, de cei care alcatuiesc echipele si de cei interesati de posturile libere. Fiind o companie care lucreaza cu personalul, punem oamenii in centrul proiectelor, motiv pentru care suntem apreciati ca si companie de recrutare de incredere si beneficiem cu totii de colaborari sanatoase.</string>
+    <string name="textContact1">Contact</string>
+    <string name="textContact2">Pentru a intra in legatura cu noi, va rugam sa completati formularul de mai jos.</string>
+    <string name="textContact3">Va vom contacta in cel mai scurt timp posibil.</string>
+    <string name="textContact4">Contact</string>
+    <string name="textContact5">Send a message</string>
+    <string name="textApply1">Formular de inscriere</string>
+    <string name="textApply2">Completati formularul pentru a aplica la locul de munca dorit.</string>
+    <string name="textApply4">Nume</string>
+    <string name="textApply5">Prenume</string>
+    <string name="textApply6">Numele Firmei</string>
+    <string name="textApply7">Adresa</string>
+    <string name="textApply8">Telefon</string>
+    <string name="textApply9">Email</string>
+    <string name="textApply10">Numar angajati</string>
+    <string name="textApply11">Creante</string>
+    <string name="textApply12">Beneficii</string>
+    <string name="textApply13">Alte detalii</string>
+    <string name="textApply14">Trmite</string>
+    <string name="textApply15">Aveti intrebari? Contactati-ne la numarul de telefon +23 120 230 340</string>
+
+
+</resources>
