@@ -20,5 +20,5 @@ Aplicatia este folosita pentru recrutarea de persoane interesate sa urmeze cursu
 Din Android Studio:
 1. ***Run "app"*** menu
 
-[home_page.jpg]: https://github.com/Geanina93/AutoRekrut2/blob/master/app/src/main/res/drawable-v24/homePage.jpg
-[formular_inscriere.jpg]: https://github.com/Geanina93/AutoRekrut2/blob/master/app/src/main/res/drawable-v24/formularInscriere.jpg
+[homePage.jpg]: https://github.com/Geanina93/AutoRekrut2/blob/master/app/src/main/res/drawable-v24/homePage.jpg
+[formularInscriere.jpg]: https://github.com/Geanina93/AutoRekrut2/blob/master/app/src/main/res/drawable-v24/formularInscriere.jpg
